@@ -41,6 +41,7 @@ body {
 
 #hero {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
 }
@@ -59,19 +60,23 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-   /* justify-content: space-around; */
-   gap: 2rem;
+    gap: 2rem;
 }
 #links ul li a img {
     justify-content: space-between;
     align-items: center;
 }
 
-#about-title {
+#links ul li a img:hover {
+    width:35px;
+}
+
+
+#experience-title {
     text-align: center;
 }
 
-.about {
+.experience {
     width: 20rem;
     margin: 1rem;
     padding: 2rem;
@@ -80,9 +85,31 @@ body {
     border-radius: 20px;
 }
 
-#about-container {
+#experience-container {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
+}
+
+#skills {
+    background-color: black;
+    padding: 0.5rem;
+}
+
+#skills h1 {
+display: flex;
+justify-content: center;
+
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+#skills ul li a img {
+    justify-content: space-between;
+    align-items: center;
 }
